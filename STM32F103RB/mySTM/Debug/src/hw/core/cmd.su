@@ -1,0 +1,9 @@
+../src/hw/core/cmd.c:160:13:do_help	16	static
+../src/hw/core/cmd.c:154:13:do_tune	8	static
+../src/hw/core/cmd.c:148:13:do_run	8	static
+../src/hw/core/cmd.c:142:13:do_set	8	static
+../src/hw/core/cmd.c:136:13:do_temp	8	static
+../src/hw/core/cmd.c:107:13:CmdCompare	8	static
+../src/hw/core/cmd.c:39:6:CmdInit	8	static
+../src/hw/core/cmd.c:64:6:CmdPrompt	32	static
+../src/hw/core/cmd.c:78:6:CmdRead	8	static

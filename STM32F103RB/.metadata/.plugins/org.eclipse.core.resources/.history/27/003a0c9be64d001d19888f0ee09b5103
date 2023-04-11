@@ -1,0 +1,56 @@
+/*
+ * app.c
+ *
+ *  Created on: Aug 27, 2022
+ *      Author: encanto
+ */
+
+#ifndef SRC_APP_APP_C_
+#define SRC_APP_APP_C_
+
+#include "app.h"
+
+//static void threadLed(void const *argument);
+
+void appInit(void)
+{
+	/*
+	osThreadDef(threadLed, threadLed, _HW_DEF_RTOS_THREAD_PRI_LED, 0,
+			_HW_DEF_RTOS_THREAD_MEM_LED);
+
+	if(osThreadCreate(osThread(threadLed), NULL) != NULL)
+	{
+		// Do Thread
+	}
+	else
+	{
+		// Fail
+		while(1);
+	}
+	*/
+}
+
+void appMain(void)
+{
+	while(1)
+	{
+		//Gpio_Toggle(GPIOA, 5);
+		Gpio_Toggle(GPIOA, 5);
+		delay(200);
+	}
+}
+/*
+static void threadLed(void const *argument)
+{
+	UNUSED(argument);
+
+	while(1)
+	{
+		//Usart_Tx_String("LED ON\r\n", 20);
+		Gpio_Toggle(GPIOA, 5);
+		delay(500);
+	}
+}
+*/
+
+#endif /* SRC_APP_APP_C_ */

@@ -1,0 +1,4 @@
+../src/hw/core/flash.c:94:16:getPage	0	static
+../src/hw/core/flash.c:26:6:FlashInit	0	static
+../src/hw/core/flash.c:36:6:FlashErase	40	static
+../src/hw/core/flash.c:67:6:FlashWrite	24	static

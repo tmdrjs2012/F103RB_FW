@@ -1,0 +1,2 @@
+../src/hw/core/adc.c:16:6:AdcInit	32	static
+../src/hw/core/adc.c:47:10:AdcRead	16	static

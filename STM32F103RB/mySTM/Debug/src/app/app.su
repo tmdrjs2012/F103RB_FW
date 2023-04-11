@@ -1,0 +1,4 @@
+../src/app/app.c:170:13:threadMain2	8	static
+../src/app/app.c:104:13:threadMain	8	static
+../src/app/app.c:28:6:appInit	56	static
+../src/app/app.c:82:6:appMain	8	static

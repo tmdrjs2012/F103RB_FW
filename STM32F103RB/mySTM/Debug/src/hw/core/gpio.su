@@ -1,0 +1,4 @@
+../src/hw/core/gpio.c:16:6:GpioInit	24	static
+../src/hw/core/gpio.c:38:9:Gpio_Input	8	static
+../src/hw/core/gpio.c:43:6:Gpio_Output	8	static
+../src/hw/core/gpio.c:48:6:Gpio_Toggle	8	static
